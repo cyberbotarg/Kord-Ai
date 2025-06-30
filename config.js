@@ -3,10 +3,10 @@ const { existsSync } = require('fs')
 if (existsSync('config.env')) require('dotenv').config({ path: './config.env' })
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || 'kord_ai-QJSOU567kmguftBw',
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "2349043883888",
+    SESSION_ID: process.env.SESSION_ID || 'kord_ai-2m3TGS5H6UfbrKCw',
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "2348104029966",
     WORKTYPE: process.env.WORKTYPE || "private",
-    PREFIX: process.env.PREFIX || "[.]",
+    PREFIX: process.env.PREFIX || "[]",
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || true,
     MONGODB_URI: process.env.MONGODB_URI || "",
     STATUS_VIEW: process.env.STATUS_VIEW || true,
@@ -21,8 +21,8 @@ module.exports = {
     BOT_PRESENCE: process.env.BOT_PRESENCE || "available", // for online, "composing" for typing 
     REACT: process.env.REACT || false,
     READ_MESSAGE: process.env.READ_MESSAGE || "false",
-    OWNER_NAME: process.env.OWNER_NAME || "Mirage",
-    BOT_NAME: process.env.BOT_NAME || "Kord",
+    OWNER_NAME: process.env.OWNER_NAME || "ABBAS",
+    BOT_NAME: process.env.BOT_NAME || "CYBER",
     RENDER_API_KEY: process.env.RENDER_API_KEY,
     ANTIDELETE: process.env.ANTIDELETE || "on",
     ANTIDELETE_INCHAT: process.env.ANTIDELETE_INCHAT || "off",
